@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>RosterFlight Solver-Optaplanner</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/webjars/font-awesome/css/all.css" />
+    <script rel="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/rosterapp.js"></script>
+</head>
+<body class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="https://www.optaplanner.org">
+            <img src="optaPlannerLogo200px.png" alt="OptaPlanner logo">
+        </a>
+    </nav>
+    <h1>FlightRoster Solver</h1>
+    <p>Print out the shift</p>
+    
+    <div style="margin-bottom: .5rem">
+    <button class="btn btn-success" id="solve"><span class="fas fa-play"></span>Solve</button>
+    <button class="btn btn-danger" id="stop"><span class="fas fa-stop"></span>Stop</button>
+    </div>
+    <div class="table-content" id="rosterTable">
+        <table class="table" id="RosterTable">
+            <!--To be filled by RosterApp.js-->
+        </table>
+        </div>
+    </div>
+</body>

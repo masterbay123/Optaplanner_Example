@@ -1,0 +1,6 @@
+Used software:
+Project framework:Quarkus
+Project builder: Apache Maven
+Project tool: Optaplanner
+Rest Service tool: RESTEasy
+Programming language: Java
